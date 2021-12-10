@@ -25,7 +25,7 @@ func main() {
 	router.PATCH("/item/:itemId", patchItem)
 	router.DELETE("/item/:itemId", deleteItem)
 
-	router.Run("localhost:8080")
+	router.Run()
 }
 
 func getItems(c *gin.Context) {
