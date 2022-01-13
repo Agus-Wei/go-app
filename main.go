@@ -21,7 +21,7 @@ func main() {
 
 	router.GET("/items", getItems)
 	router.GET("/item/:itemId", getItem)
-	router.POST("/item/:itemId", postItem)
+	router.POST("/item/", postItem)
 	router.PATCH("/item/:itemId", patchItem)
 	router.DELETE("/item/:itemId", deleteItem)
 
